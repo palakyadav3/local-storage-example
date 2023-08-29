@@ -26,7 +26,6 @@ function add(){
         let UniqId=1;
         if(a.length==0){
             
-            // dets=[];
             a.push({id:UniqId,
                 name:name1.value,
                 Age:age.value});
@@ -55,9 +54,6 @@ function add(){
                 a.push({id:UniqId,
                     name:name1.value,
                     Age:age.value})
-                    // dets.push({id:UniqId,
-                    //     name:name1.value,
-                    //     Age:age.value})
                       
             localStorage.setItem("details",JSON.stringify(a));
             
@@ -77,8 +73,7 @@ function add(){
         tdelete.append(createbutton);
         Trow.append(tid,tname,tage,tdelete);
         tBody.append(Trow);
-        // const pal=JSON.parse(localStorage.getItem("details"));
-        // console.log("dde:"+JSON.stringify(pal));
+    
         for(let i=a.length-1;i<a.length;i++){
             
             tid.append(a[i].id);
@@ -148,5 +143,5 @@ function deletes(event) {
      
 }
 
-// tdelete.addEventListener('click',() => Trow.remove());
+
     
