@@ -124,6 +124,8 @@ if(pal!==null ){
         tage.append(pal[i].Age);
 
         tdelete.addEventListener("click",deletes); 
+
+        // commit 1
     }
     a=pal;
     
