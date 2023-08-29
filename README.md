@@ -1,2 +1,5 @@
 # local-storage-example
-For Git Tutorial
+Technologies used:
+HTML
+CSS
+Javascript
